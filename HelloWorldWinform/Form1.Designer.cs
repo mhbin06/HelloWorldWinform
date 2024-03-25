@@ -37,10 +37,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("바탕", 70F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(97, 73);
+            this.label1.Font = new System.Drawing.Font("바탕", 80F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.Location = new System.Drawing.Point(46, 48);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(792, 94);
+            this.label1.Size = new System.Drawing.Size(901, 107);
             this.label1.TabIndex = 0;
             this.label1.Text = "박지우쌤담임사건";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -64,6 +64,7 @@
             this.Controls.Add(this.label1);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "3208 문혜빈 3-2 급훈";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
